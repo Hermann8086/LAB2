@@ -51,17 +51,17 @@
 
 Команди:
 
-'''
+```
 free -h
-'''
+```
 
-'''
+```
 df -h
-'''
+```
 
-'''
+```
 ifconfig
-'''
+```
 
 ![](Aspose.Words.7116f279-dec3-43ef-a563-26d3d9c2a8a0.006.png)
 
@@ -70,9 +70,9 @@ ifconfig
 
 Далі, виконуємо команду:
 
-'''
+```
 gcloud compute zones list
-'''
+```
 
 Після чого бачимо опцію зон ліст, дуже великий список:
 
@@ -80,9 +80,9 @@ gcloud compute zones list
 
 Рисунок 1.7 — Список зон
 
-'''
+```
 gcloud compute instances create [instance-2] [my-vm] —machine-type=[n1-standard-1] --image-project=[ubuntu-os-cloud] --image-family=[ubuntu-minimal-2204-lts] —zone=[us-east5]
-'''
+```
 
 Данною командою ми створюємо дві нові віртуальні машини:
 
